@@ -5,9 +5,9 @@ const Home = () => (
     <Head>
       <title>Create Next App</title>
       <link rel="icon" href="/favicon.ico" />
-      <script dangerouslySetInnerHTML={{ __html: `
-window.Intellipse=window.Intellipse||function(){(Intellipse.q=Intellipse.q||[]).push(arguments)};Intellipse.l=+new Date; </script> <script async src='https://bootstrap.development.intellipse.com/bootstrap.js'>
-`}} />
+      <script dangerouslySetInnerHTML={{ __html: 
+  `window.Intellipse=window.Intellipse||function(){(Intellipse.q=Intellipse.q||[]).push(arguments)};Intellipse.l=+new Date; </script> <script async src='https://bootstrap.development.intellipse.com/bootstrap.js'>`
+  }} />
       </Head>
 
     <main>
