@@ -8,7 +8,7 @@ const Home = () => (
       <script dangerouslySetInnerHTML={{ __html: 
   `window.Intellipse=window.Intellipse||function(){(Intellipse.q=Intellipse.q||[]).push(arguments)};Intellipse.l=+new Date;`
   }} />
-  <script src='https://bootstrap.development.intellipse.com/bootstrap.js' />
+  <script src='https://bootstrap.production.intellipse.com/bootstrap.js' />
       </Head>
 
     <main>
