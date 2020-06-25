@@ -5,8 +5,10 @@ const Home = () => (
     <Head>
       <title>Create Next App</title>
       <link rel="icon" href="/favicon.ico" />
-  <!-- Intellipse Embed Script --> <script> window.Intellipse=window.Intellipse||function(){(Intellipse.q=Intellipse.q||[]).push(arguments)};Intellipse.l=+new Date; </script> <script async src='https://bootstrap.production.intellipse.com/bootstrap.js'></script> <!-- End Intellipse Embed Script -->
-    </Head>
+      <script dangerouslySetInnerHTML={{ __html: `
+window.Intellipse=window.Intellipse||function(){(Intellipse.q=Intellipse.q||[]).push(arguments)};Intellipse.l=+new Date; </script> <script async src='https://bootstrap.production.intellipse.com/bootstrap.js'>
+`}} />
+      </Head>
 
     <main>
       <h1 className="title">
